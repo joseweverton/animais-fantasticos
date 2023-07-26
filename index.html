@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Playfair+Display+SC&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
+    <script>
+      document.documentElement.className +=  ' js';
+    </script>
 
     <title>Animais Fantásticos</title>
   </head>
@@ -22,7 +25,7 @@
     </nav>
     <section class="grid-section animais" id="animais">
       <h1 class="titulo">Animais Fantásticos</h1>
-      <ul class="animais-lista">
+      <ul class="animais-lista js-tabmenu">
         <li><img src="./img/imagem1.jpg" alt="imagem 1 Raposa" /></li>
         <li><img src="./img/imagem2.jpg" alt="imagem 2 Esquilo" /></li>
         <li><img src="./img/imagem3.jpg" alt="imagem 3 Urso" /></li>
@@ -30,7 +33,7 @@
         <li><img src="./img/imagem5.jpg" alt="imagem 5 Macaco" /></li>
         <li><img src="./img/imagem6.jpg" alt="imagem 6 Leão" /></li>
       </ul>
-      <div class="animais-descricao">
+      <div class="animais-descricao js-tabcontent">
         <section>
           <h2>Raposa</h2>
           <p>
@@ -204,6 +207,6 @@
     <footer class="copy">
       <p>Todos os direitos reservados</p>
     </footer>
-    <script class="main.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
