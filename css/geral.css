@@ -47,7 +47,9 @@ body {
     font-size: 0.875rem;
     letter-spacing: .1em;
 }
-
+.menu li a:hover {
+    color: #fff; /* Substitua #ff0000 pela cor desejada ao passar o mouse */
+}
 .grid-section {
     grid-column: 2 / 4;
     width: 100%;
@@ -278,3 +280,17 @@ body {
     transform: translate3d(0, 0, 0);
     
 }
+
+[data-semana]::after {
+    display: inline-block;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: red;
+    border-radius: 50%;
+    margin-left: 4px;
+    border: 1px solid #000;
+}
+[data-semana].aberto::after{
+    background: #3f4;
+} 
