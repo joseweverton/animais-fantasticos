@@ -3,7 +3,6 @@ export default function initTooltip() {
 
 tooltips.forEach((item) => {
   item.addEventListener('mouseover', onMouseOver)
-
 })
 
 function onMouseOver(event) {
